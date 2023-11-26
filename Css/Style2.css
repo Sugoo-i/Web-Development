@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #f0f1f1;
+}
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(6, 173, 145);
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+main {
+  padding: 30px 50px;
+  border: 5px solid rgb(207, 206, 206);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.container {
+  background-color: rgb(6, 173, 145);
+  padding: 20px;
+  background-color: rgb(6, 173, 145);
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.lineInput {
+  display: grid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: 0;
+  width: 30%;
+}
+button {
+  border: 0px;
+  padding: 10px;
+  outline: 0;
+  background-color: rgb(6, 173, 145);
+  color: #fff;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: all ease 0.3s;
+  margin-right: 10px;
+}
+button:hover {
+  background-color: rgb(2, 121, 101);
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+table th {
+  background-color: rgb(228, 227, 227);
+}
+
+table th,
+td {
+  text-align: left;
+  padding: 1px 5px;
+}
+
+table td img {
+  width: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.excluirItemLista {
+  display: grid;
+  margin-bottom: 10px;
+}
+
+#lista {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+#lista > li {
+  margin: 2px;
+  padding: 10px;
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+.botao {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.metodos {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+}
+.p {
+  display: none;
+}
+#menuDados {
+  display: none;
+}
+#form {
+  display: flex;
+  justify-content: left;
+}
+
+#voltar2 {
+  display: none;
+}
+
+div {
+  margin-bottom: 10px;
+}
+#dadosVet {
+  display: none;
+  margin-top: 15px;
+  border: 5px solid rgb(207, 206, 206);
+  border-radius: 10px;
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#resultado {
+  margin-top: 25px;
+}

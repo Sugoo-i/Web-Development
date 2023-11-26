@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <link rel="stylesheet" href="Css/Style2.css" />
+    <script src="Js/pagina2.js" defer></script>
+    <title>Metodos de Contagem</title>
+  </head>
+  <body>
+    <header>
+      <h1>Estatistica & Probabilidade</h1>
+    </header>
+    <main>
+      <div class="title">
+        <h2>Metodos de Contagem</h2>
+      </div>
+      <form id="form">
+        <div class="metodos">
+          <button type="button" id="PermutacaoSimples">Permutação Simples</button>
+          <button type="button" id="ArranjosSimples">Arranjos Simples</button>
+          <button type="button" id="CombinacoesSimples">Combinações Simples</button>
+          <button type="button" id="PermutacaoRepeticao">Permutação Repetição</button>
+          <button type="button" id="ArranjosRepeticao">Arranjos Repetição</button>
+          <button type="button" id="CombinacoesRepeticao">Combinações Repetição</button>
+          <button type="button" id="voltar"><a href="index.html"><= Voltar</a></button>
+          <button type="button" id="voltar2"><a href="Metodos_Contagem.html"><= Selecionar outro</a></button>    
+        </div>
+       
+        </form>
+        <div id="menuDados">
+        <div class="p" id =p>
+            <label> <h3>Quantidade de elementos selecionados(P)</h3></label>
+            <input type="text" id="valorP" placeholder="Inserir somente um valor" required>
+        </div>
+        <div class="lineInput">
+          <h3>Dados(N)</h3>
+          <input type="text" id="valor" required />
+        </div>
+        <div class="menu">
+          <div class="btnfuncional">
+            <button type="button" id="remover">Remover item</button>
+            <button type="button" id="resetar">Resetar Lista</button>
+          </div>
+          <div class="excluirItemLista">
+            <label><h3>Excluir item especifico</h3></label>
+            <input type="text" id="itemEspecifico" />
+          </div>
+          <button type="button" id="calcular">Finalizar e Calcular</button>
+        </div>
+        </div>
+        <div id="dadosVet">
+          <h3>Dados adicionados:</h3>
+          <label id="quantidadeDados"></label>
+          <ul id="lista"></ul>
+        </div>
+        <div class="result">
+          <form id="resultado"> </form>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

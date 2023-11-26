@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/Styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="Js/index.js" defer></script>
+    <title>Lista de Dados</title>
+  </head>
+  <body>
+    <header>
+      <h1>Estatistica & Probabilidade</h1>
+    </header>
+    <main>
+      <div class="title">
+        <h2>Lista de Dados</h2>
+      </div>
+      <form id="form">
+        <div class="lineInput">
+          <h3>Dados</h3>
+          <input type="text" id="valor" required />
+        </div>
+        <div class="menu">
+          <div class="btnfuncional">
+            <button type="button" id="remover">Remover item</button>
+            <button type="button" id="resetar">Resetar Lista / Grafico</button>
+          </div>
+          <div class="excluirItemLista">
+            <label><h3>Excluir item especifico</h3></label>
+            <input type="text" id="itemEspecifico" />
+          </div>
+          <div class="botao">
+            <button type="button" id="calcular">Finalizar e Calcular</button>
+            <button href="" type="button" id="contagem">
+              <a href="Metodos_Contagem.html">Metodos de contagem</a>
+            </button>
+          </div>
+        </div>
+        <div id="dadosAdicionados">
+          <label> <h3>Dados adicionados:</h3></label>
+          <label id="quantidadeDados"></label>
+          <div>
+            <ul id="lista"></ul>
+          </div>
+        </div>
+        <div id="content">
+          <table border="1">
+            <thead>
+              <th class="reset" id="media">Média</th>
+              <th class="reset" id="mediana">Mediana</th>
+              <th class="reset" id="moda">Moda</th>
+              <th class="reset" id="variancia">Variância</th>
+              <th class="reset" id="desvioPadrao">Desvio padrão</th>
+              <th class="reset" id="coeficienteDeVariacao">
+                Coeficiente de variação
+              </th>
+            </thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+      </form>
+      <canvas id="histograma" width="0.5" height="0.10"></canvas>
+    </main>
+    <footer>
+      <h3>Autores:</h3>
+      <p>Rafael Soares Fernandes</p>
+      <p>Vinicius Souza Ferreira</p>
+    </footer>
+  </body>
+</html>
